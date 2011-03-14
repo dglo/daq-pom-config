@@ -58,7 +58,7 @@
 
 <!--
         <property name="tabWidth" value="4"/>
- -->
+-->
 
         <!-- Checks for Javadoc comments.                     -->
         <!-- See http://checkstyle.sf.net/config_javadoc.html -->
@@ -70,7 +70,7 @@
         <module name="JavadocVariable">
             <property name="scope" value="public"/>
         </module>
- -->
+-->
         <module name="JavadocStyle">
           <property name="checkFirstSentence" value="false"/>
         </module>
@@ -88,7 +88,7 @@
         <module name="ParameterName"/>
         <module name="StaticVariableName"/>
         <module name="TypeName"/>
- -->
+-->
 
 
         <!-- Checks for Headers -->
@@ -119,7 +119,7 @@
 <!--
         <module name="ImportOrder"/>
         <module name="ImportControl"/>
- -->
+-->
 
         <!-- Checks for Size Violations.                    -->
         <!-- See http://checkstyle.sf.net/config_sizes.html -->
@@ -129,7 +129,7 @@
         <module name="LineLength"/>
         <module name="MethodLength"/>
         <module name="ParameterNumber"/>
- -->
+-->
 
 
         <!-- Checks for whitespace                               -->
@@ -146,7 +146,7 @@
         <module name="TabCharacter"/>
         <module name="WhitespaceAfter"/>
         <module name="WhitespaceAround"/>
- -->
+-->
 
 
         <!-- Modifier Checks                                    -->
@@ -154,7 +154,7 @@
 <!--
         <module name="ModifierOrder"/>
         <module name="RedundantModifier"/>
- -->
+-->
 
 
         <!-- Checks for blocks. You know, those {}'s         -->
@@ -176,7 +176,7 @@
             <property name="option" value="eol"/>
         </module>
         <module name="RightCurly"/>
- -->
+-->
 
 
         <!-- Checks for common coding problems               -->
@@ -187,23 +187,23 @@
         <module name="CovariantEquals"/>
         <module name="DeclarationOrder"/>
         <module name="DefaultComesLast"/>
- -->
+-->
         <module name="DoubleCheckedLocking"/>    <!-- MY FAVOURITE -->
         <module name="EmptyStatement"/>
         <module name="EqualsHashCode"/>
 <!--
         <module name="ExplicitInitialization"/>
- -->
+-->
         <module name="FallThrough"/>
 <!--
         <module name="FinalLocalVariable"/>
- -->
+-->
         <module name="HiddenField">
             <property name="tokens" value="VARIABLE_DEF"/>
         </module>
 <!--
         <module name="IllegalCatch"/>
- -->
+-->
         <module name="IllegalInstantiation">
             <property name="classes" value="java.lang.Boolean"/>
         </module>
@@ -212,13 +212,13 @@
         <module name="IllegalToken"/>
         <module name="IllegalTokenText"/>
         <module name="IllegalType"/>
- -->
+-->
         <module name="InnerAssignment"/>
         <module name="JUnitTestCase"/>
 <!--
         <module name="MagicNumber"/>
         <module name="MissingCtor"/>
- -->
+-->
         <module name="MissingSwitchDefault"/>
 <!--
         <module name="ModifiedControlVariable"/>
@@ -230,7 +230,7 @@
         <module name="NestedTryDepth">
             <property name="max" value="3"/>
         </module>
- -->
+-->
         <module name="PackageDeclaration"/>
 <!--
         <module name="ParameterAssignment"/>
@@ -241,7 +241,7 @@
 <!--
         <module name="RequireThis"/>
         <module name="ReturnCount"/>
- -->
+-->
         <module name="SimplifyBooleanExpression"/>
         <module name="SimplifyBooleanReturn"/>
         <module name="StringLiteralEquality"/>
@@ -249,22 +249,22 @@
         <module name="SuperFinalize"/>
 <!--
         <module name="UnnecessaryParentheses"/>
- -->
+-->
 
         <!-- Checks for class design                         -->
         <!-- See http://checkstyle.sf.net/config_design.html -->
 <!--
         <module name="DesignForExtension"/>
- -->
+-->
         <module name="FinalClass"/>
 <!--
         <module name="HideUtilityClassConstructor"/>
         <module name="InterfaceIsType"/>
- -->
+-->
         <module name="MutableException"/>
 <!--
         <module name="ThrowsCount"/>
- -->
+-->
         <module name="VisibilityModifier"/>
 
 
@@ -288,7 +288,7 @@
         <module name="TrailingComment"/>
         <module name="Translation"/>
         <module name="UncommentedMain"/>
- -->
+-->
         <module name="UpperEll"/>
 
         <!-- Metrics -->
@@ -299,7 +299,7 @@
         <module name="CyclomaticComplexity"/>
         <module name="JavaNCSS"/>
         <module name="NPathComplexity"/>
- -->
+-->
 
         <!-- Optional J2EE Requirements -->
 <!--
@@ -313,7 +313,7 @@
         <module name="j2ee.SessionBean"/>
         <module name="j2ee.ThisParameter"/>
         <module name="j2ee.ThisReturn"/>
- -->
+-->
 
         <!-- Optional Usage -->
 <!--
@@ -322,12 +322,12 @@
         <module name="usage.UnusedParameter"/>
         <module name="usage.UnusedPrivateField"/>
         <module name="usage.UnusedPrivateMethod"/>
- -->
+-->
     </module>
 
     <!-- Duplicates -->
 <!--
     <module name="StrictDuplicateCode"/>
- -->
+-->
 
 </module>

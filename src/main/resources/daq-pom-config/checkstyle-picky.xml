@@ -50,6 +50,12 @@
     <!-- See http://checkstyle.sf.net/config_sizes.html -->
     <module name="FileLength"/>
 
+    <module name="FileTabCharacter">
+        <property name="eachLine" value="true"/>
+    </module>
+
+    <module name="Translation"/>
+
     <module name="TreeWalker">
 
         <property name="tabWidth" value="4"/>
@@ -69,9 +75,7 @@
 
         <!-- Checks for Naming Conventions.                  -->
         <!-- See http://checkstyle.sf.net/config_naming.html -->
-<!--
         <module name="AbstractClassName"/>
- -->
         <module name="ConstantName"/>
         <module name="LocalFinalVariableName"/>
         <module name="LocalVariableName"/>
@@ -113,7 +117,7 @@
         <module name="ImportControl">
             <property name="file" value="import-control.xml"/>
         </module>
- -->
+-->
 
         <!-- Checks for Size Violations.                    -->
         <!-- See http://checkstyle.sf.net/config_sizes.html -->
@@ -130,7 +134,7 @@
         <module name="EmptyForIteratorPad"/>
 <!-- NOT FOR DAQ
         <module name="MethodParamPad"/>
- -->
+-->
         <module name="NoWhitespaceAfter"/>
         <module name="NoWhitespaceBefore"/>
         <module name="OperatorWrap">
@@ -138,7 +142,6 @@
         </module>
         <module name="ParenPad"/>
         <module name="TypecastParenPad"/>
-        <module name="TabCharacter"/>
         <module name="WhitespaceAfter"/>
         <module name="WhitespaceAround"/>
 
@@ -174,7 +177,7 @@
         <module name="ArrayTrailingComma"/>
 <!-- YUCK
         <module name="AvoidInlineConditionals"/>
- -->
+-->
         <module name="CovariantEquals"/>
         <module name="DeclarationOrder"/>
         <module name="DefaultComesLast"/>
@@ -185,7 +188,7 @@
         <module name="FallThrough"/>
 <!-- YUCK
         <module name="FinalLocalVariable"/>
- -->
+-->
         <module name="HiddenField">
             <property name="tokens" value="VARIABLE_DEF"/>
         </module>
@@ -196,22 +199,22 @@
         <module name="IllegalThrows"/>
 <!-- YUCK
         <module name="IllegalToken"/>
- -->
+-->
         <module name="IllegalTokenText"/>
 <!-- YUCK
         <module name="IllegalType"/>
- -->
+-->
         <module name="InnerAssignment"/>
         <module name="JUnitTestCase"/>
 <!-- YUCK
         <module name="MagicNumber"/>
- -->
+-->
         <module name="MissingCtor"/>
         <module name="MissingSwitchDefault"/>
         <module name="ModifiedControlVariable"/>
 <!-- SILLY
         <module name="MultipleStringLiterals"/>
- -->
+-->
         <module name="MultipleVariableDeclarations"/>
         <module name="NestedIfDepth">
             <property name="max" value="3"/>
@@ -226,7 +229,7 @@
         </module>
 <!-- YUCK
         <module name="RequireThis"/>
- -->
+-->
         <module name="ReturnCount"/>
         <module name="SimplifyBooleanExpression"/>
         <module name="SimplifyBooleanReturn"/>
@@ -235,22 +238,22 @@
         <module name="SuperFinalize"/>
 <!--
         <module name="UnnecessaryParentheses"/>
- -->
+-->
 
         <!-- Checks for class design                         -->
         <!-- See http://checkstyle.sf.net/config_design.html -->
 <!--
         <module name="DesignForExtension"/>
- -->
+-->
         <module name="FinalClass"/>
         <module name="HideUtilityClassConstructor"/>
 <!-- YUCK
         <module name="InterfaceIsType"/>
- -->
+-->
         <module name="MutableException"/>
 <!--
         <module name="ThrowsCount"/>
- -->
+-->
         <module name="VisibilityModifier"/>
 
 
@@ -260,12 +263,14 @@
         <module name="DescendantToken"/>
 <!-- YUCK
         <module name="FinalParameters"/>
- -->
+-->
+<!--
         <module name="Regexp">
             <property name="format" value="\s+$"/>
             <property name="illegalPattern" value="true"/>
             <property name="message" value="Line has trailing spaces."/>
         </module>
+-->
         <module name="Indentation">
             <property name="caseIndent" value="0"/>
         </module>
@@ -274,7 +279,7 @@
         <module name="TrailingComment"/>
 <!--
         <module name="UncommentedMain"/>
- -->
+-->
         <module name="UpperEll"/>
 
         <!-- Metrics -->
@@ -284,10 +289,11 @@
         <module name="CyclomaticComplexity"/>
         <module name="JavaNCSS"/>
         <module name="NPathComplexity"/>
+    </module>
 
     <!-- Duplicates -->
 <!-- NOT FOR DAQ
     <module name="StrictDuplicateCode"/>
- -->
+-->
 
 </module>
