@@ -1,14 +1,18 @@
 <settings>
     <servers>
+        <!--
+             Replace ${PDAQ_SVN_USER} and ${PDAQ_SVN_PASS} with the
+             appropriate username/password pair
+         -->
         <server>
             <id>icecube-maven2-projects</id>
-            <username>icecube</username>
-            <password>skua</password>
+            <username>${PDAQ_SVN_USER}</username>
+            <password>${PDAQ_SVN_PASS}</password>
         </server>
         <server>
             <id>icecube-maven2-plugins</id>
-            <username>icecube</username>
-            <password>skua</password>
+            <username>${PDAQ_SVN_USER}</username>
+            <password>${PDAQ_SVN_PASS}</password>
         </server>
     </servers>
 
