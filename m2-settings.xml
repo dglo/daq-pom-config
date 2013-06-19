@@ -1,0 +1,55 @@
+<settings>
+    <servers>
+        <server>
+            <id>icecube-maven2-projects</id>
+            <username>icecube</username>
+            <password>skua</password>
+        </server>
+        <server>
+            <id>icecube-maven2-plugins</id>
+            <username>icecube</username>
+            <password>skua</password>
+        </server>
+    </servers>
+
+    <profiles>
+        <profile>
+            <id>icecube-maven2-profile</id>
+            <repositories>
+                <repository>
+                    <id>icecube-maven2-projects</id>
+                    <name>IceCube Maven 2 Repository</name>
+                    <releases>
+                        <enabled>true</enabled>
+                        <checksumPolicy>fail</checksumPolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                        <checksumPolicy>fail</checksumPolicy>
+                    </snapshots>
+                    <url>http://warehouse.icecube.wisc.edu/maven2/repository</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>icecube-maven2-plugins</id>
+                    <name>IceCube Maven 2 plugin Repository</name>
+                    <releases>
+                        <enabled>true</enabled>
+                        <checksumPolicy>fail</checksumPolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                        <checksumPolicy>fail</checksumPolicy>
+                    </snapshots>
+                    <url>http://warehouse.icecube.wisc.edu/maven2/repository</url>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>icecube-maven2-profile</activeProfile>
+    </activeProfiles>
+
+</settings>
