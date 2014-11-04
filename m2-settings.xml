@@ -31,7 +31,7 @@
                         <enabled>true</enabled>
                         <checksumPolicy>fail</checksumPolicy>
                     </snapshots>
-                    <url>http://block.wipac.wisc.edu/maven2/repository</url>
+                    <url>http://maven.wipac.wisc.edu/maven2/repository</url>
                 </repository>
             </repositories>
             <pluginRepositories>
@@ -46,7 +46,7 @@
                         <enabled>true</enabled>
                         <checksumPolicy>fail</checksumPolicy>
                     </snapshots>
-                    <url>http://block.wipac.wisc.edu/maven2/repository</url>
+                    <url>http://maven.wipac.wisc.edu/maven2/repository</url>
                 </pluginRepository>
             </pluginRepositories>
         </profile>
