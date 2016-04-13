@@ -200,7 +200,6 @@
         </module>
         <module name="IllegalThrows"/>
         <module name="InnerAssignment"/>
-        <module name="JUnitTestCase"/>
 <!-- YUCK
         <module name="MagicNumber"/>
 -->
@@ -210,9 +209,6 @@
             <property name="max" value="3"/>
         </module>
         <module name="PackageDeclaration"/>
-        <module name="RedundantThrows">
-            <property name="allowUnchecked" value="true"/>
-        </module>
         <module name="SimplifyBooleanExpression"/>
         <module name="SimplifyBooleanReturn"/>
         <module name="StringLiteralEquality"/>
