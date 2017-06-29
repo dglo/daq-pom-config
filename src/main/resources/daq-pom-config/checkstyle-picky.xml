@@ -214,7 +214,6 @@
         <module name="IllegalType"/>
 -->
         <module name="InnerAssignment"/>
-        <module name="JUnitTestCase"/>
 <!-- YUCK
         <module name="MagicNumber"/>
 -->
@@ -233,9 +232,6 @@
         </module>
         <module name="PackageDeclaration"/>
         <module name="ParameterAssignment"/>
-        <module name="RedundantThrows">
-            <property name="allowUnchecked" value="true"/>
-        </module>
 <!-- YUCK
         <module name="RequireThis"/>
 -->
